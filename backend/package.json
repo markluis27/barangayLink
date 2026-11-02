@@ -1,0 +1,31 @@
+{
+  "name": "barangay-tinurik-backend",
+  "version": "1.0.0",
+  "description": "Backend REST API for Barangay Tinurik Document Request and Tracking System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "db:init": "node database/init-db.js"
+  },
+  "keywords": [
+    "barangay",
+    "tinurik",
+    "aws",
+    "ec2",
+    "rest-api",
+    "express",
+    "postgresql"
+  ],
+  "author": "Barangay Tinurik IT",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.5"
+  }
+}
